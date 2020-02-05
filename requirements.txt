@@ -1,0 +1,10 @@
+import nltk
+import re
+import logging
+import spacy
+import string
+import language_check
+import nltk.data
+from nltk.stem import WordNetLemmatizer as wnl
+from flask import Flask, request, jsonify
+from nltk import sent_tokenize
